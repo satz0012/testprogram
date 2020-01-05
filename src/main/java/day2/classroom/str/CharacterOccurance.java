@@ -12,14 +12,14 @@ public class CharacterOccurance {
 		char ch = 'a';
 		int totalCount = 0;
 		
-		System.out.print("The total length is " +test.length());
+		System.out.println("The total length is " +test.length());
 		char[] charArray = test.toCharArray();
 		for (int i = 0; i < charArray.length; i++) {
 			if(charArray[i] == ch) {
 				totalCount++;
 			}
 		}
-		System.out.println(totalCount);
+		
 		
 		// Build the logic to find the count of each
 		/* Pseudo Code:

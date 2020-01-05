@@ -26,9 +26,9 @@ public class Factorial {
 		int n=5;
 		// Declare and initialize an integer variable by name: fact
 		
-        int i,fact=1;
+        int fact=1;
 		// Iterate from 1 to your input (tip: using loop concept)
-		for(i=5;i>0;i--) {
+		for(int i=5;i>0;i--) {
 			fact=fact*i;
 			
 		} 

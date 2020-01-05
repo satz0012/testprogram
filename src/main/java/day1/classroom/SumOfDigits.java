@@ -22,10 +22,22 @@ public class SumOfDigits {
 	public static void main(String[] args) {
 
 		// Declare your input number (int)
-int n;
+int i=123;
 		// Initialize an integer variable by name: sum
-int sum;
+int sum=0;
+int rem;
 		// Use loop to calculate the sum: which loop to use until the number goes less than 10??
+   while(i!=0) {
+	   rem=i%10;
+	   System.out.println(rem);
+	   sum=sum+rem;
+	   i=i/10;
+   }
+
+		
+		System.out.println(sum);
+	}
+
 
 		// Within loop: get the remainder when done by 10 -> Tip: use mod
 
@@ -42,4 +54,4 @@ int sum;
 		// Outside the loop: print the final sum
 	}
 
-}
+
